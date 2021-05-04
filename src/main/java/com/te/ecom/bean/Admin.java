@@ -9,13 +9,13 @@ import lombok.Data;
 
 @Data
 @Entity
-@Table(name = "admin_info")
+@Table(name = "admin")
 public class Admin {
 
 	@Id
-	@Column(name = "admin_id")
+	@Column(name = "adminid")
 	private int id;
 	
-	@Column(name = "admin_password")
+	@Column(name = "adminpwd")
 	private String password;
 }
